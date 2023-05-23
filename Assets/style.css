@@ -1,0 +1,86 @@
+/*inputs and output*/
+.num1 {
+    height: 2.375rem;
+    width: 9.75rem;
+    border-radius: 0.625rem;
+    margin: auto;
+    text-align: center;
+}
+.num2 {
+    height: 2.375rem;
+    width: 9.75rem;
+    border-radius: 0.625rem;
+    margin: auto;
+    text-align: center;
+}
+
+p {
+    color: black;
+}
+
+.result1 {
+    height: 0.625rem;
+    width: 12.5rem;
+    border-radius: 10.625rem;
+    margin: auto;
+    text-align: center;
+}
+
+/*end of inputs and output*/
+
+/*container holders*/
+.container-con {
+    margin-top: 1.25rem; 
+    align-items: center;
+    align-items: center; 
+}
+/*end of container hholders styling*/
+
+/*button styling*/
+.btn-outlook {
+    height: 1.563rem;
+    width: 4.688rem;
+    border-radius: 0.625rem;
+    margin: auto;
+    margin-top: 1.25rem;
+    font-size: 0.719rem;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.btn-outlook:hover {
+background: #7a7a99;
+box-shadow: 0.063rem 0.063rem 0.188rem #5a5a71,
+             -0.063rem -0.063rem 0.188rem #9a9ac1;
+}
+/*end of button styling*/
+.center-to {
+    margin: auto;
+    width: 21.875rem;
+    border: solid 0.125rem;
+    border-radius: 3.125rem;
+    background-color: #090960;
+    border-radius: 3.125rem;
+box-shadow:  0.938rem 0.938rem 3.5rem #060642,
+             -0.938rem -0.938rem 3.5rem #0c0c7e;
+}
+.bg-color-y {
+background-color:#7a7a99 ;
+height: 100vh;
+padding-top: 0,1rem;
+}
+.rest-end {
+    text-decoration: overline;
+    color: white;
+    font-weight: bold;
+}
+
+@media (max-width: 300px) {
+    .bg-color-y {
+        padding: 8px;
+    }
+    .center-to {
+        margin: auto;
+        width: 100%;
+    }
+}
